@@ -57,7 +57,7 @@ export default {
 </script>
 
 <template>
-    <div class="nav_top d-flex w-100">
+    <div class="nav_top d-flex w-100 mb-3">
         <ul class="navbar-nav me-auto mb-2">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle ps-0" href="#" role="button" data-bs-toggle="dropdown"
@@ -86,8 +86,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables' as *;
+
 .nav_top {
     font-size: 14px;
+    color: $ms_txt_header;
 }
 </style>
 
