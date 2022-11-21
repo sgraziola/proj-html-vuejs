@@ -16,6 +16,11 @@ import { faBullhorn } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { faBookmark } from "@fortawesome/free-regular-svg-icons";
+import { faChartLine } from "@fortawesome/free-solid-svg-icons";
+import { faPalette } from "@fortawesome/free-solid-svg-icons";
+import { faGear } from "@fortawesome/free-solid-svg-icons";
+import { faFaceSmile } from "@fortawesome/free-solid-svg-icons";
+import { faCashRegister } from "@fortawesome/free-solid-svg-icons";
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -31,6 +36,11 @@ library.add(
   faBullhorn,
   faBriefcase,
   faUser,
-  faBookmark
+  faBookmark,
+  faChartLine,
+  faPalette,
+  faGear,
+  faFaceSmile,
+  faCashRegister
 );
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

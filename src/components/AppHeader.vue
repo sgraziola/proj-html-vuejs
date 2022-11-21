@@ -1,10 +1,12 @@
 <script>
 import NavbarItem from './NavbarItem.vue';
+import SubCategory from './SubCategory.vue';
 
 export default {
     name: "AppHeader",
     components: {
-        NavbarItem
+        NavbarItem,
+        SubCategory
     }
 }
 </script>
@@ -14,8 +16,10 @@ export default {
         <div class="nav_container">
             <NavbarItem />
             <!-- /.navbar -->
-
         </div>
+        <!-- /.nav_container -->
+        <SubCategory />
+        <!-- /.subcategory -->
     </header>
     <!-- /#site_header -->
 </template>

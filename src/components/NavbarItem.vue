@@ -1,6 +1,7 @@
 <script>
 import NavbarTop from './NavbarTop.vue';
 import NavbarBot from './NavbarBot.vue';
+
 export default {
     name: "NavbarItem",
     components: {
