@@ -12,14 +12,28 @@ export default {
 </script>
 
 <template>
-    <nav class="navbar navbar-expand">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse flex-wrap">
-                <NavbarTop />
-                <!-- /.nav_top -->
-                <NavbarBot />
-                <!-- /.nav_bot -->
+    <div class="nav_container">
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse flex-wrap">
+                    <NavbarTop />
+                    <!-- /.nav_top -->
+                    <NavbarBot />
+                    <!-- /.nav_bot -->
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+        <!-- /.navbar -->
+    </div>
+    <!-- /.nav_container -->
+
 </template>
+
+<style lang="scss" scoped>
+header {
+    .nav_container {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+</style>

@@ -13,22 +13,10 @@ export default {
 
 <template>
     <header id="site_header">
-        <div class="nav_container">
-            <NavbarItem />
-            <!-- /.navbar -->
-        </div>
-        <!-- /.nav_container -->
+        <NavbarItem />
         <SubCategory />
         <!-- /.subcategory -->
     </header>
     <!-- /#site_header -->
 </template>
 
-<style lang="scss" scoped>
-header {
-    .nav_container {
-        max-width: 90%;
-        margin: auto;
-    }
-}
-</style>

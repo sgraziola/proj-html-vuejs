@@ -66,7 +66,7 @@ export default {
 
     .src_bar {
         font-size: 14px;
-        width: 450px;
+        width: 525px;
         background-color: $ms_src_bg;
     }
 
