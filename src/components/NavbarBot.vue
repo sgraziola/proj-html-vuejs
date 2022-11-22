@@ -29,7 +29,7 @@ export default {
         <form class="d-flex" role="search">
             <input class="form-control src_bar ms-2 rounded-0" type="search" placeholder="Search courses"
                 aria-label="Search">
-            <button class="btn btn_search rounded-0 px-3" type="submit">
+            <button class="btn_search rounded-0 px-3" type="submit">
                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
             </button>
         </form>
@@ -68,11 +68,6 @@ export default {
         font-size: 14px;
         width: 525px;
         background-color: $ms_src_bg;
-    }
-
-    .btn_search {
-        background-color: $ms_magnifier;
-        color: $ms_light;
     }
 
     .nav_icon {

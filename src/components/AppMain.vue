@@ -3,6 +3,7 @@ import JumbotronItem from './JumbotronItem.vue';
 import DevelopmentCourses from './DevelopmentCourses.vue';
 import CallToAction from './CallToAction.vue';
 import RecentCourses from './RecentCourses.vue';
+import CallToSubscribe from './CallToSubscribe.vue';
 
 export default {
     name: "AppMain",
@@ -10,7 +11,8 @@ export default {
         JumbotronItem,
         DevelopmentCourses,
         CallToAction,
-        RecentCourses
+        RecentCourses,
+        CallToSubscribe,
     }
 }
 </script>
@@ -21,6 +23,7 @@ export default {
         <DevelopmentCourses />
         <CallToAction />
         <RecentCourses />
+        <CallToSubscribe />
     </main>
     <!-- site_main -->
 </template>
