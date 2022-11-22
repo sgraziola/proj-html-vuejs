@@ -8,3 +8,16 @@
 img{
     max-width: 100%;
 }
+.btn_sign {
+    color: $ms_light;
+    background-color: $ms_primary;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.135em;
+    border-radius: 30px;
+    padding: 1.3rem 2rem;
+    border: 0;
+}

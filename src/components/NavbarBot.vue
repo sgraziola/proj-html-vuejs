@@ -45,7 +45,7 @@ export default {
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><button class="mx-3 btn btn_sign">SIGN UP</button></a>
+                <a class="nav-link" href="#"><button class="mx-3 btn_sign">SIGN UP</button></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link nav_icon big" href="#">
@@ -81,20 +81,6 @@ export default {
 
     .big {
         font-size: 20px;
-    }
-
-    .btn_sign {
-        color: $ms_light;
-        background-color: $ms_primary;
-        font-family: "Kanit", sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.135em;
-        border-radius: 30px;
-        padding: 1.3rem 2rem;
-
     }
 }
 </style>

@@ -1,12 +1,14 @@
 <script>
 import JumbotronItem from './JumbotronItem.vue';
 import DevelopmentCourses from './DevelopmentCourses.vue';
+import CallToAction from './CallToAction.vue';
 
 export default {
     name: "AppMain",
     components: {
         JumbotronItem,
-        DevelopmentCourses
+        DevelopmentCourses,
+        CallToAction
     }
 }
 </script>
@@ -15,6 +17,7 @@ export default {
     <main id="site_main">
         <JumbotronItem />
         <DevelopmentCourses />
+        <CallToAction />
     </main>
     <!-- site_main -->
 </template>
