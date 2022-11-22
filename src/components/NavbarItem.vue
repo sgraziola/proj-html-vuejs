@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-    <div class="nav_container">
+    <div class="main_container">
         <nav class="navbar navbar-expand">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse flex-wrap">
@@ -29,11 +29,6 @@ export default {
 
 </template>
 
-<style lang="scss" scoped>
-header {
-    .nav_container {
-        max-width: 90%;
-        margin: auto;
-    }
-}
+<style lang="scss">
+
 </style>
