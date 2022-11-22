@@ -6,33 +6,33 @@ export default {
 
 <template>
     <section class="callToAction">
-        <img src="../assets/img/bg.png" alt="">
-        <div class="callToAction_details col-3">
-            <h2>Limitless learning, more possibilities</h2>
-            <p>Online courses open to the opportunity for learning to almost anyone, regardless of their scheduling
-                commitments</p>
-            <a href="#"><button class="btn_sign">READ MORE</button></a>
+
+        <div class="card col-6">
+            <img src="../assets/img/image_box_1-221x231.png" class="card-img-left" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card col-6">
+            <img src="../assets/img/image_box_2-234x231.png" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
         </div>
     </section>
 </template>
 
 <style lang="scss" scoped>
 .callToAction {
-    position: relative;
-
-    .callToAction_details {
-        position: absolute;
-        top: 28%;
-        left: 19%;
-
-        h2 {
-            font-size: 3rem;
-            font-weight: bolder;
-            margin-bottom: 1.5rem;
-        }
-
-        p {
-            margin-bottom: 2.5rem;
+    .col-6 {
+        img {
+            width: 50px;
         }
     }
 }
