@@ -1,56 +1,13 @@
 <script>
+import navList from '../data/navLinks'
+import socialList from '../data/socialList.js';
+
 export default {
     name: "NavbarTop",
     data() {
         return {
-            navList: [
-                {
-                    text: 'Home',
-                    href: '#'
-                },
-                {
-                    text: 'Pages',
-                    href: '#'
-                },
-                {
-                    text: 'Course Formats',
-                    href: '#'
-                },
-                {
-                    text: 'Courses',
-                    href: '#'
-                },
-                {
-                    text: 'Demos',
-                    href: '#'
-                },
-            ],
-            socials: [
-                {
-                    icon: 'fa-facebook',
-                    href: '#'
-                },
-                {
-                    icon: 'fa-twitter',
-                    href: '#'
-                },
-                {
-                    icon: 'fa-instagram',
-                    href: '#'
-                },
-                {
-                    icon: 'fa-linkedin',
-                    href: '#'
-                },
-                {
-                    icon: 'fa-google-plus',
-                    href: '#'
-                },
-                {
-                    icon: 'fa-youtube',
-                    href: '#'
-                },
-            ]
+            navList,
+            socials: socialList,
         }
     }
 }
