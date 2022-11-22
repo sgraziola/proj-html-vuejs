@@ -1,12 +1,12 @@
 <script>
 import categoriesList from '../data/categoriesList.js';
 import recentsList from '../data/recentCourses.js'
-import RecentCourse from './RecentCourse.vue';
+import Course from './Course.vue';
 
 export default {
     name: "RecentCourses",
     components: {
-        RecentCourse
+        Course
     },
     data() {
         return {
@@ -30,7 +30,7 @@ export default {
             </li>
         </ul>
         <div class="row row-cols-6 gy-5">
-            <RecentCourse :course="course" v-for="course in recentsList" />
+            <Course :course="course" v-for="course in recentsList" />
         </div>
         <a href="#"><button class="btn_sign">SHOW ALL</button></a>
     </div>

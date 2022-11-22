@@ -21,6 +21,8 @@ import { faPalette } from "@fortawesome/free-solid-svg-icons";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { faFaceSmile } from "@fortawesome/free-solid-svg-icons";
 import { faCashRegister } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -41,6 +43,8 @@ library.add(
   faPalette,
   faGear,
   faFaceSmile,
-  faCashRegister
+  faCashRegister,
+  faChevronLeft,
+  faChevronRight
 );
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

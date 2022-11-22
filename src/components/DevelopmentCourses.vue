@@ -1,11 +1,11 @@
 <script>
-import DevCourse from './DevCourse.vue';
+import Course from './Course.vue';
 import devList from '../data/developerCourses.js'
 
 export default {
     name: "DevelopmentCourses",
     components: {
-        DevCourse
+        Course
     },
     data() {
         return {
@@ -19,7 +19,7 @@ export default {
     <div class="main_container py-5 mb-4">
         <h4 class="mb-3 pb-3">Popular Development Courses</h4>
         <div class="row row-cols-6">
-            <DevCourse :course="course" v-for="course in devList" />
+            <Course :course="course" v-for="course in devList" />
         </div>
     </div>
 

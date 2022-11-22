@@ -2,7 +2,7 @@
 import { store } from '../store.js';
 
 export default {
-    name: "DevCourse",
+    name: "Course",
     props: {
         course: Object
     },
@@ -56,10 +56,10 @@ export default {
                         </span>
                     </div>
                     <div class="price text-end">
-                        <div class="full">
+                        <div class="full" v-if="course.details.fullPrice != null">
                             <span>${{ course.details.fullPrice }}</span>
                         </div>
-                        <div class="discounted">
+                        <div class="discounted" v-if="course.details.discounted != ''">
                             <strong>${{ course.details.discountedPrice }}</strong>
                         </div>
                     </div>
