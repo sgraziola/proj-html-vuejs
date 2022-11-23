@@ -17,7 +17,7 @@ export default {
 
 <template>
     <div class="main_container py-5 mb-4">
-        <h4 class="mb-3 pb-3">Popular Development Courses</h4>
+        <h5 class="mb-3 pb-3">Popular Development Courses</h5>
         <div class="row row-cols-6">
             <Course :course="course" v-for="course in devList" />
         </div>
@@ -26,5 +26,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
+h5 {
+    font-weight: 600;
+}
 </style>

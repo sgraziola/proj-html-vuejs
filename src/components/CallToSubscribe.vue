@@ -6,17 +6,17 @@ export default {
 
 <template>
     <section class="callToSubscribe mt-5">
-        <div class="subcontainer d-flex py-5">
+        <div class="subcontainer d-flex">
             <div class="callToSubscribe_details col-7 pe-5">
-                <h5>Subscribe our newletter</h5>
+                <h6>Subscribe our newletter</h6>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour, or randomised words</p>
             </div>
             <div class="emailCall col-5">
-                <span>YOUR E-MAIL ADDRESS</span>
+                <h6>YOUR E-MAIL ADDRESS</h6>
                 <form class="d-flex" role="search">
-                    <input class="form-control form-control-lg email_bar rounded-0" type="email"
-                        placeholder="Enter your E-mail" aria-label="email">
+                    <input class="form-control email_bar rounded-0" type="email" placeholder="Enter your E-mail"
+                        aria-label="email">
                     <button class="btn_search rounded-0 px-3" type="submit">SUBSCRIBE</button>
                 </form>
             </div>
@@ -33,9 +33,10 @@ export default {
     color: $ms_light;
 
     .subcontainer {
-        span {
-            display: inline-block;
-            margin-bottom: 1rem;
+        padding: 2rem 0;
+
+        p {
+            font-size: 11px;
         }
 
         .email_bar {

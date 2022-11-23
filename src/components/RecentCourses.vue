@@ -22,9 +22,8 @@ export default {
     <div class="main_container py-5 my-4 text-center">
         <h2 class="my-3 py-3">Recent Courses</h2>
         <ul class="navbar-nav flex-row justify-content-center py-3">
-            <li class="nav-item px-4" v-for="category in categoriesList">
-                <a class="nav-link fs-6" :class="category.text === 'All Categories' ? 'selected' : ''"
-                    :href="category.href">
+            <li class="nav-item px-2" v-for="category in categoriesList">
+                <a class="nav-link" :class="category.text === 'All Categories' ? 'selected' : ''" :href="category.href">
                     {{ category.text }}
                 </a>
             </li>
@@ -57,6 +56,7 @@ ul {
         color: $ms_magnifier;
         border-radius: 2rem;
         padding: 0.5rem 1rem;
+        font-size: 14px;
     }
 
     a:hover {

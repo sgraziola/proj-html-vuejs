@@ -36,7 +36,7 @@ export default {
                             <li class="nav-item px-1" v-for="link in navList">
                                 <a class="nav-link" :href="link.href">{{ link.text }}</a>
                             </li>
-                            <li class="nav-item d-flex ms-4">
+                            <li class="nav-item socials d-flex ms-4">
                                 <a v-for="icon in socials" class="nav-link" :href="icon.href">
                                     <font-awesome-icon :icon="['fab', icon.icon]" />
                                 </a>
@@ -56,8 +56,21 @@ export default {
 
 .main_container {
     .nav_top {
-        font-size: 14px;
+        font-size: 10px;
         color: $ms_txt_header;
+
+        a.dropdown-item {
+            font-size: 10px;
+        }
+
+        .dropdown-menu {
+            min-width: 0;
+            border-radius: 0;
+        }
+
+        .socials {
+            font-size: 13px;
+        }
     }
 }
 </style>

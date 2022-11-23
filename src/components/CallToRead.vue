@@ -6,7 +6,7 @@ export default {
 
 <template>
     <section class="callToRead">
-        <div class="callToRead_details col-3">
+        <div class="callToRead_details col-4">
             <h2>Limitless learning, more possibilities</h2>
             <p>Online courses open to the opportunity for learning to almost anyone, regardless of their scheduling
                 commitments</p>
@@ -27,7 +27,7 @@ export default {
     .callToRead_details {
         position: relative;
         top: 20%;
-        left: 19%;
+        left: 16%;
 
         h2 {
             font-size: 3rem;

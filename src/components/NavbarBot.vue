@@ -39,13 +39,13 @@ export default {
                         </form>
                         <ul class="navbar-nav ms-auto align-items-center">
                             <li class="nav-item pe-4" v-for="element in navLinks">
-                                <a class="nav-link fs-6" :href="element.href">
+                                <a class="nav-link" :href="element.href">
                                     <font-awesome-icon class="pe-2 nav_icon" :icon="['fas', element.icon]" />
                                     {{ element.text }}
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav_icon fs-6 ms-4" href="#">
+                                <a class="nav-link nav_icon ms-4" href="#">
                                     <font-awesome-icon class="pe-2" icon="fa-regular fa-user" />Log In
                                 </a>
                             </li>
@@ -72,15 +72,19 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
 
 .nav_bot {
-    font-size: 14px;
+    font-size: 10px;
 
     .f_basis {
         flex-basis: 28%;
     }
 
     .src_bar {
-        font-size: 14px;
+        font-size: 10px;
         background-color: $ms_src_bg;
+    }
+
+    .nav-item a {
+        font-size: 14px;
     }
 
     .nav_icon {

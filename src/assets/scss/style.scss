@@ -1,6 +1,11 @@
 @use "./partials/variables" as *;
 @use "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
+
+body{
+    font-family: $ms_font;
+}
 .main_container {
     max-width: 90%;
     margin: auto;
@@ -25,6 +30,7 @@ img{
 .btn_search {
     background-color: $ms_magnifier;
     color: $ms_light;
+    font-size: 12px;
     border: 0;
 }
 

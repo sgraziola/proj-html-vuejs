@@ -36,11 +36,12 @@ export default {
             margin-left: 2rem;
 
             h3 {
-                font-size: 34px;
+                font-size: 27px;
+                font-weight: 600;
             }
 
             p {
-                font-size: 17px;
+                font-size: 13px;
                 color: $ms_txt_header;
                 margin-bottom: 2rem;
             }

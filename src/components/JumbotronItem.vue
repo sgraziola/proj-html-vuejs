@@ -32,12 +32,13 @@ export default {
         margin-left: 360px;
 
         h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
+            font-weight: 600;
         }
 
         p {
-            font-size: 22px;
-            width: 93%;
+            font-size: 18px;
+            width: 101%;
         }
     }
 }

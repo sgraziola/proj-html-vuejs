@@ -79,7 +79,11 @@ export default {
         h6 {
             color: $ms_subtitle;
             font-weight: 400;
-            font-size: smaller;
+            font-size: 11px;
+        }
+
+        p {
+            font-size: 12px;
         }
 
         hr {
