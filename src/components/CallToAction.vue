@@ -47,13 +47,13 @@ export default {
             }
 
             .btn_hover {
-                background-image: linear-gradient($ms_hover, $ms_hover);
-                background-size: 0 100%;
+                background-image: linear-gradient($ms_hover 0 0);
+                background-size: 0;
                 background-repeat: no-repeat;
-                transition: .4s;
+                transition: .3s;
 
                 &:hover {
-                    background-size: 100% 100%;
+                    background-size: 100%;
                 }
             }
 
