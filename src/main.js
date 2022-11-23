@@ -15,6 +15,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faBullhorn } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 import { faBookmark } from "@fortawesome/free-regular-svg-icons";
 import { faChartLine } from "@fortawesome/free-solid-svg-icons";
 import { faPalette } from "@fortawesome/free-solid-svg-icons";
@@ -50,6 +51,7 @@ library.add(
   faChevronRight,
   faPinterest,
   faSkype,
-  faDribbble
+  faDribbble,
+  faCopyright
 );
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

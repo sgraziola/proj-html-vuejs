@@ -13,8 +13,11 @@ export default {
 
 <template>
     <footer id="site_footer">
-        <div class="subcontainer d-flex">
+        <div class="subcontainer d-flex flex-wrap">
             <FooterTop />
+        </div>
+        <hr>
+        <div class="subcontainer d-flex flex-wrap">
             <FooterBot />
         </div>
     </footer>
@@ -28,5 +31,9 @@ export default {
 footer {
     color: $ms_light;
     background-color: $ms_nav;
+
+    hr {
+        border: 1px solid;
+    }
 }
 </style>
