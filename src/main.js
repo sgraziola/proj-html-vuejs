@@ -4,7 +4,7 @@ import App from "./App.vue";
 import * as bootstrap from "bootstrap";
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faDribbble, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -23,6 +23,8 @@ import { faFaceSmile } from "@fortawesome/free-solid-svg-icons";
 import { faCashRegister } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { faPinterest } from "@fortawesome/free-brands-svg-icons";
+import { faSkype } from "@fortawesome/free-brands-svg-icons";
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -45,6 +47,9 @@ library.add(
   faFaceSmile,
   faCashRegister,
   faChevronLeft,
-  faChevronRight
+  faChevronRight,
+  faPinterest,
+  faSkype,
+  faDribbble
 );
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

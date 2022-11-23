@@ -1,6 +1,12 @@
 <script>
+import socialNetwork from '../data/socialNetwork.js'
 export default {
     name: "FooterTop",
+    data() {
+        return {
+            socialNetwork
+        }
+    }
 }
 </script>
 
@@ -19,9 +25,23 @@ export default {
             <span class="email">info@masterstudy.com</span>
         </div>
     </div>
-    <div class="right_side col-6 d-flex py-5">
-        <div class="socials"></div>
-        <div class="spot"></div>
+    <div class="right_side col-6 d-flex py-5 ps-5">
+        <div class="socials col-6 pe-4">
+            <h6>SOCIAL NETWORK</h6>
+            <div class="network">
+                <div class="row row-cols-4">
+                    <div class="col" v-for="social in socialNetwork">
+                        <a :href="social.href" :style="{ 'background-color': social.bgColor }">
+                            <font-awesome-icon :icon="['fab', social.icon]" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="spot col-6 ps-2">
+            <img src="../assets/img/Top-udemy-courses-90-percent-off.jpg" alt="">
+        </div>
     </div>
 </template>
 
@@ -35,7 +55,7 @@ export default {
     }
 
     p,
-    .email {
+    span {
         font-size: 13px;
     }
 
