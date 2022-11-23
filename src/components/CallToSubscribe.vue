@@ -7,7 +7,7 @@ export default {
 <template>
     <section class="callToSubscribe mt-5">
         <div class="subcontainer d-flex py-5">
-            <div class="callToSubscribe_details col-7">
+            <div class="callToSubscribe_details col-7 pe-5">
                 <h5>Subscribe our newletter</h5>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour, or randomised words</p>
@@ -33,9 +33,6 @@ export default {
     color: $ms_light;
 
     .subcontainer {
-        max-width: 60%;
-        margin: auto;
-
         span {
             display: inline-block;
             margin-bottom: 1rem;
