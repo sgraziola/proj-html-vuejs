@@ -11,7 +11,7 @@ export default {
             <div class="card-body">
                 <h3 class="card-title mb-4">Become an Instructor</h3>
                 <p class="card-text col-9">Teach what you love. Masterstudy gives you the tools to create a course.</p>
-                <a href="#"><button class="btn_sign">START TEACHING</button></a>
+                <a href="#"><button class="btn_sign btn_hover">START TEACHING</button></a>
             </div>
         </div>
         <div class="card flex-row rounded-0 ms-2 p-5">
@@ -19,7 +19,7 @@ export default {
             <div class="card-body">
                 <h3 class="card-title mb-4">Access for Business</h3>
                 <p class="card-text col-9">Get unlimited access to 2,500 of top courses for your team.</p>
-                <a href="#"><button class="btn_sign">DOING BUSINESS</button></a>
+                <a href="#"><button class="btn_sign btn_hover">DOING BUSINESS</button></a>
             </div>
         </div>
     </section>
@@ -46,9 +46,17 @@ export default {
                 margin-bottom: 2rem;
             }
 
-            button:hover {
-                background-color: $ms_hover;
+            .btn_hover {
+                background-image: linear-gradient($ms_hover, $ms_hover);
+                background-size: 0 100%;
+                background-repeat: no-repeat;
+                transition: .4s;
+
+                &:hover {
+                    background-size: 100% 100%;
+                }
             }
+
         }
     }
 }
