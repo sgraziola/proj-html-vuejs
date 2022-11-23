@@ -15,7 +15,7 @@ export default {
             <div class="trapezium"></div>
         </div>
         <div class="col-6">
-            <img src="../assets/img/slide-1.jpg" alt="">
+            <img src="../assets/img/slide-1.jpg" class="w-100" alt="">
         </div>
     </div>
     <!-- /.jumbotron -->

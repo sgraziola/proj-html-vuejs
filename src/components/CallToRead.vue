@@ -6,7 +6,6 @@ export default {
 
 <template>
     <section class="callToRead">
-        <img src="../assets/img/bg.png" alt="">
         <div class="callToRead_details col-3">
             <h2>Limitless learning, more possibilities</h2>
             <p>Online courses open to the opportunity for learning to almost anyone, regardless of their scheduling
@@ -18,11 +17,16 @@ export default {
 
 <style lang="scss" scoped>
 .callToRead {
-    position: relative;
+    background-image: url('../assets/img/bg.png');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 500px;
+
 
     .callToRead_details {
-        position: absolute;
-        top: 28%;
+        position: relative;
+        top: 20%;
         left: 19%;
 
         h2 {

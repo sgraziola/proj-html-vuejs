@@ -8,7 +8,6 @@ export default {
 
 <template>
     <section class="testimonial">
-        <img src="../assets/img/testimonial-1-1917x640-1-1914x639.jpg" alt="">
         <div class="quote_text">
             <h3>Investing for Your Future</h3>
             <p>It is no exaggeration to say this MasterStudy experience was transformative-both professionally and
@@ -26,11 +25,15 @@ export default {
 @use '../assets/scss/partials/variables' as *;
 
 .testimonial {
-    position: relative;
+    background-image: url('../assets/img/testimonial-1-1917x640-1-1914x639.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 4.75rem 0rem;
 
     .quote_text {
-        position: absolute;
-        top: 12%;
+        position: relative;
+        top: 0;
         left: 20%;
         background-color: $ms_light;
         width: 37%;

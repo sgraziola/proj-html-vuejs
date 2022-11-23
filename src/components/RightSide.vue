@@ -15,11 +15,11 @@ export default {
 </script>
 
 <template>
-    <div class="right_side col-6 d-flex py-5 ps-5">
+    <div class="right_side col-6 d-flex py-5 ps-4">
         <div class="socials col-6">
             <h6>SOCIAL NETWORK</h6>
             <div class="network">
-                <div class="row row-cols-4 gy-2">
+                <div class="row row-cols-4 gy-2 gx-4">
                     <div class="col" v-for="social in socialNetwork">
                         <a :href="social.href" :style="{ 'background-color': social.bgColor }">
                             <font-awesome-icon :icon="['fab', social.icon]" />

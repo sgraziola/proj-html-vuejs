@@ -28,7 +28,7 @@ export default {
                 </ul>
             </li>
         </ul>
-        <ul class="navbar-nav ms-auto mb-2 px-3">
+        <ul class="navbar-nav ms-auto mb-2">
             <li class="nav-item px-1" v-for="link in navList">
                 <a class="nav-link" :href="link.href">{{ link.text }}</a>
             </li>

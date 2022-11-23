@@ -26,7 +26,7 @@ export default {
         <a class="nav-link ms-4" href="#">
             <font-awesome-icon icon="fa-solid fa-bars" /> CATEGORY
         </a>
-        <form class="d-flex" role="search">
+        <form class="d-flex f_basis" role="search">
             <input class="form-control src_bar ms-2 rounded-0" type="search" placeholder="Search courses"
                 aria-label="Search">
             <button class="btn_search rounded-0 px-3" type="submit">
@@ -64,9 +64,12 @@ export default {
 .nav_bot {
     font-size: 14px;
 
+    .f_basis {
+        flex-basis: 28%;
+    }
+
     .src_bar {
         font-size: 14px;
-        width: 525px;
         background-color: $ms_src_bg;
     }
 
