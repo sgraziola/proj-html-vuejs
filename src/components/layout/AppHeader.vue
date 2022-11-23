@@ -1,6 +1,6 @@
 <script>
-import NavbarItem from './NavbarItem.vue';
-import SubCategory from './SubCategory.vue';
+import NavbarItem from '../NavbarItem.vue';
+import SubCategory from '../SubCategory.vue';
 
 export default {
     name: "AppHeader",

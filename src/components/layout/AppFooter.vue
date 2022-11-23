@@ -1,6 +1,6 @@
 <script>
-import FooterTop from './FooterTop.vue';
-import FooterBot from './FooterBot.vue';
+import FooterTop from '../FooterTop.vue';
+import FooterBot from '../FooterBot.vue';
 
 export default {
     name: "AppFooter",
@@ -25,7 +25,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/variables' as *;
+@use '../../assets/scss/partials/variables' as *;
 
 
 footer {
