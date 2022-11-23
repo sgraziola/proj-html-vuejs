@@ -6,6 +6,7 @@ import RecentCourses from './RecentCourses.vue';
 import CallToSubscribe from './CallToSubscribe.vue';
 import PopularCourses from './PopularCourses.vue';
 import CallToAction from './CallToAction.vue';
+import QuoteSection from './QuoteSection.vue';
 
 
 export default {
@@ -17,7 +18,8 @@ export default {
         RecentCourses,
         CallToSubscribe,
         PopularCourses,
-        CallToAction
+        CallToAction,
+        QuoteSection
     }
 }
 </script>
@@ -31,6 +33,7 @@ export default {
         <CallToSubscribe />
         <PopularCourses />
         <CallToAction />
+        <QuoteSection />
     </main>
     <!-- site_main -->
 </template>

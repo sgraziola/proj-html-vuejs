@@ -29,7 +29,7 @@ export default {
                 </a>
             </li>
         </ul>
-        <div class="row row-cols-6 gy-5">
+        <div class="row row-cols-6 gy-5 text-start">
             <Course :course="course" v-for="course in recentsList" />
         </div>
         <a href="#"><button class="btn_sign">SHOW ALL</button></a>

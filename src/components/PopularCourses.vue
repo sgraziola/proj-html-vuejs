@@ -20,7 +20,7 @@ export default {
         <div class="main_container py-5 text-center">
             <h2 class="mt-3 pt-3">Popular courses</h2>
             <p class="pb-3">Discover our most popular courses for self learning</p>
-            <div class="row row-cols-6">
+            <div class="row row-cols-6 text-start">
                 <Course :course="course" v-for="course in popularList" />
             </div>
             <div class="arrows pt-5 mt-2">
